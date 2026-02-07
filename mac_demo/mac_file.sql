@@ -33,7 +33,7 @@ CREATE TABLE commits (
 CREATE INDEX idx_projects_owner ON projects(owner_id);
 CREATE INDEX idx_commits_project ON commits(project_id);
 CREATE INDEX idx_commits_author ON commits(author_id);
-
+§
 -- Sample data (inline inserts)
 INSERT INTO users (username, email) VALUES
   ('alice', 'alice@example.com'),
